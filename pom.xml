@@ -330,11 +330,6 @@
                                         <ignoreIdentifiers>true</ignoreIdentifiers>
                                     </configuration>
                                 </plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-war-plugin</artifactId>
-					<version>3.3.1</version>
-				    </plugin>
                                 <plugin>
                                     <groupId>org.codehaus.mojo</groupId>
                                     <artifactId>findbugs-maven-plugin</artifactId>
@@ -386,11 +381,6 @@
             <id>maven2</id>
             <build>
                 <plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-war-plugin</artifactId>
-				<version>3.3.1</version>
-		    	</plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-enforcer-plugin</artifactId>
